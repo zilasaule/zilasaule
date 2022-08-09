@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Samotok</title>
+		<meta name="description" content="Samotok: store of unique authors' books which you can print and bind by yourself. Instructions supplied" />
+	<meta name="keywords" content="books, bookstore, ready for printing, cc, calendar, pdf" />
+	<meta name="zilasaule" content="book sets" />
+   <link rel="stylesheet" type="text/css" href="n-css/n-flickity.css" />
+
+	<link rel="stylesheet" type="text/css" href="n-css/n-component-item00.css" />
+    <!-- Game nomber one -->
+    <link rel="stylesheet" type="text/css" href="n-css/game1.css" />
+    <!-- tilt effect -->
+	<link rel="stylesheet" type="text/css" href="n-css/n-tilteffect.css" />
+    
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700&amp;subset=cyrillic" rel="stylesheet"> <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    
+</head>
+<script src="n-js/n-flickity.pkgd.js"></script>
+<script src="n-js/n-isotope.pkgd.js"></script>
+<script src="n-js/grad.js"></script>
+<style>	
+body{
+	font-family: Roboto Condensed, sans-serif;
+	color: #006;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	
+   padding: 0px;
+   margin: 0px;
+ }
+
+#gradient
+{
+	width:1260px;
+    height: 450px;
+	
+	position:relative;
+	margin:auto;
+ 
+}
+.gradient2
+{ 
+	border:15px solid #fff;
+	
+	display:block;
+	position:relative;
+	float:left;
+	
+
+  width: 400px;
+  height: 400px;
+  padding: 0px;
+  margin: 10px;
+}
+
+.au-name{
+	z-index:110;
+	position:absolute;
+	top:20px;
+	right:20px;
+	text-transform:uppercase;
+	font-style:italic;
+	line-height:13px;
+	font-weight:400;
+	font-size:1.5em;
+	background-color:#FFF;
+	opacity:.8;
+	transition:.5s;
+	}
+	.au-name:hover{
+		line-height:25px;
+		opacity:1;}
+		
+	
+.au-site{
+
+	z-index:111;
+	position:absolute;
+	top:60px;
+	right:20px;
+	text-transform:lowercase;
+	font-style:italic;
+	line-height:13px;
+	font-weight:400;
+	font-size:1em;
+	text-align:right;
+	}
+	.au-site p{
+		margin-top:-5px;
+		
+		color:#000;
+		}
+	.au-site a{	
+	line-height:13px;
+	padding-left:5px;
+		padding-right:5px;
+		background-color:#FFF;
+		transition:.5s;
+		opacity:.8;
+	}
+		
+	.au-site a:hover {
+		padding-left:15px;
+		padding-right:15px;
+		color:#006;
+		background-color:#FFEF29;
+	opacity:1;
+	}
+	.au-mail{
+
+	z-index:111;
+	position:absolute;
+	top:250px;
+	right:-45px;
+	text-transform:lowercase;
+	font-style:italic;
+	line-height:13px;
+	font-weight:400;
+	font-size:1em;
+	text-align:right;
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	transform:rotate(-90deg);
+	
+	
+	}
+	
+	.au-mail a{	
+	
+	padding-left:5px;
+		padding-right:5px;
+		background-color:#FFF;
+		transition:.5s;
+		opacity:.8;
+	}
+		
+	.au-mail a:hover {
+		
+		color:#006;
+		background-color:#FFEF29;
+	opacity:1;
+	}
+	
+	@media screen and (max-width: 1260px) {
+	
+	#gradient
+{
+	width:850px;
+    height: 850px;
+	
+	position:relative;
+	margin:auto;
+ 
+}
+	
+}
+@media screen and (max-width: 850px) {
+	
+	#gradient
+{
+	width:420px;
+    height: 1260px;
+	
+	position:relative;
+	margin:auto;
+ 
+}
+	
+}	
+	
+</style>
+
+<body>
+<header>
+
+
+ <div class="logo"><a href="samotok.html"><img src="samotoklogo.png" class="logoimg"> </a></div>
+ <div class="sign"><img src="samoglazsign.png"></div>
+ <div class="sublogo"><h1>Samotok</h1> </div>
+  <div class="descr-help"></div>
+ 
+ 
+ 
+ <div class="descr">
+
+            <div class="game1"><h1>GAME #1</h1>
+ 
+                   <div class="desgame"><div class="fongr"></div><div class="smaltext">Let's imagine the world that has no publishers, printing houses and book shops. There is no book distribution. There are only authors and readers left.</div>
+                   
+                   <div class="desgame-help">
+                      <div class="kzb"><h2>WHAT SHALL WE DO?</h2>
+                          <div class="imgread"><img src="images/sam8.png" height="80"></div>
+                          <div class="textread">–  Oh no, how could I find the continuation of my favorite story? </div>
+                          <div class="imgau"><img src="images/sam2.png" height="80"></div>
+                          <div class="textau">– Where to should I put my books when there is not enough place in my table?</div>
+        
+                          <div class="pvds">we'll do everything on our own</div>
+        
+                          <div class="reader"><h3>If you play as an author</h3>
+      
+                               <div class="re1"><em>you will need:</em>
+                                <ul>
+                                  <li>•  a computer and a printer </li>
+                                  <li>• a paper knife, a steel ruler and a cutting mat</li>
+                                </ul>
+                              </div>
+          
+                                 <div class="re2"><em>reader’s tasks:</em>
+                                 <ul>
+                                    <li>• choose a book (or a calendar) among the items on the main page</li>
+                                    <li>• download <em>a print-ready PDF file</em></li>
+                                    <li>• print, cut and bind it into a book</li>
+                                    <li>• send a <em>honorarium</em> to the <em>author</em> of the book</li>
+                                    <li>• start <a href="samotok.html">reading and observing the images</a></li>
+                                 </ul>
+                              </div>
+                         
+                          </div> <!-- reader end --> 
+        
+                             <div class="author"><h3>If you play as an author</h3>
+            
+                              <div class="au1">you will need:
+                                <ul>
+                                  <li>•    a computer and a scanner </li>
+                                  <li>•     Photoshop and Indesign </li>
+                                </ul>
+                              </div> 
+    
+                              <div class="au2">author’s tasks:
+                                <ul>
+                                  <li>•      come up with a story idea and draw it</li>
+                                  <li>•      fit the story into 12 pages</li>
+                                  <li>•      post the print-ready pdf files on Samotok</li>
+                                  <li>•      share the news about the book with friends</li>
+                                  <li>•     receive author’s reward and start another story</li>
+                                </ul>
+                              </div>
+            
+                           </div> <!-- author end -->
+ 
+                      </div>  <!-- kzb end -->
+                  </div>  <!--desgame-help end -->
+                 </div>  <!--desgame end -->
+             
+             </div>  <!--clear1 end -->
+ 
+</div> <!--description end -->
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+</header>
+
+<ul class="main-menu-samotok">
+<li><a href="samotok.html"> main </a></li>
+<li><a href="abouta.html"> about us </a></li>
+<li><a href="http://samoglaz.in"> samoglaz </a></li>
+<li><a href="index.html"> zilasaue </a></li>
+<li ><a href="#">рус</a></li>
+<li class="menu-lang">Eng</li>
+</ul>      
+  
+  
+  
+ <div id="gradient">
+  <div  class="gradient2"><img src="images/about-zo.png"  /> <span class="au-name">zoya donets</span><span class="au-site"><p><a href="https://vk.com/club104385480" target="_blank"> chetyre ruki</a></p></span></div>
+  
+<div class="gradient2"><img src="images/about-ri.png"  /> <span class="au-name">ri-tori</span><span class="au-site"><p><a href="https://www.behance.net/ri-tori" target="_blank">behance</a></p><p><a href="http://cargocollective.com/ritori" target="_blank">portfolio</a></p><p><a href="http://cargocollective.com/zilasaule" target="_blank">books</a></p><p><a href="https://www.facebook.com/margarita.shchetinskaya" target="_blank">facebook</a></p></span>
+<span class="au-mail"><a href="mailto:samoglaz@gmail.com" >samoglaz@gmail.com</a></span></div>
+
+<div class="gradient2"><img src="images/about-il.png"  /> <span class="au-name">ilya donets</span><span class="au-site"><p><a href="https://www.behance.net/ilyadonets" target="_blank">behance</a></p><p><a href="http://cargocollective.com/ilyadonets/" target="_blank">portfolio</a></p><p><a href="http://cargocollective.com/zilasaule" target="_blank">books</a></p><p><a href="http://zilasaule.tumblr.com" target="_blank">tumblr</a></p><p><a href="https://ello.co/zilasaule" target="_blank">ello</a></p></span><span class="au-mail"> <a href="mailto:ilja.donets@gmail.com" >ilja.donets@gmail.com</a></span></div>
+</div> 
+
+    
+<div class="bar"><a href="abouta.html"><img src="images/sam3.png" class="barimg" width="60" /></a><span class="podpis">12.18.2016 designed by <a href="index.html">Zilasaule.Ilya Donets</a></span></div>     
+
+</body>
+</html>
